@@ -7,6 +7,6 @@ resources:
 namespace: goapp
 
 images:
-  - name: goapp-image
-    newName: rpeleje/argocd-gitops
-    newTag: v1
+- name: goapp-image
+  newName: rpeleje/argocd-gitops
+  newTag: 1df2d5c9c794a0e79dce0c872759d46d8791aa82
