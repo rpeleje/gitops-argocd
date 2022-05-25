@@ -19,3 +19,4 @@ jobs:
           password: ${{ secrets.Docker_passwd }}
           repository: rpeleje/argocd-gitops
           tags: ${{ github.sha }}, latest
+
