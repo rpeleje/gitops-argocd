@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp-image
   newName: rpeleje/argocd-gitops
-  newTag: da9fb77c7f8a8d0e455a9f3ac33aa57a1e8b269f
+  newTag: 29bfd535a5262c7f21f832eb0806cfb70349722b
