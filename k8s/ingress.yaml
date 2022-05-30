@@ -7,6 +7,11 @@ spec:
   - host: teste-devops.telefonicabigdata.com
     http:
       paths:
-      - backend: 
-          serviceName: goapp-svc
-          servicePort: 80
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: goapp-svc
+            port: 
+              number: 80
+
